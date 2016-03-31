@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="3rdParty" name="0">
+      <df name="assimp">
+        <df name="contrib">
+          <df name="clipper">
+            <in>clipper.cpp</in>
+          </df>
+          <df name="ConvertUTF">
+            <in>ConvertUTF.cpp</in>
+          </df>
+          <df name="irrXML">
+            <in>irrXML.cpp</in>
+          </df>
+          <df name="poly2tri">
+            <df name="poly2tri">
+              <df name="common">
+                <in>shapes.cpp</in>
+              </df>
+              <df name="sweep">
+                <in>advancing_front.cpp</in>
+                <in>cdt.cpp</in>
+                <in>sweep.cpp</in>
+                <in>sweep_context.cpp</in>
+              </df>
+            </df>
+          </df>
+          <df name="unzip">
+            <in>ioapi.c</in>
+            <in>unzip.c</in>
+          </df>
+        </df>
+        <df name="src">
+          <in>3DSConverter.cpp</in>
+          <in>3DSLoader.cpp</in>
+          <in>ACLoader.cpp</in>
+          <in>ASELoader.cpp</in>
+          <in>ASEParser.cpp</in>
+          <in>Assimp.cpp</in>
+          <in>AssimpCExport.cpp</in>
+          <in>AssimpPCH.cpp</in>
+          <in>B3DImporter.cpp</in>
+          <in>BVHLoader.cpp</in>
+          <in>BaseImporter.cpp</in>
+          <in>BaseProcess.cpp</in>
+          <in>Bitmap.cpp</in>
+          <in>BlenderBMesh.cpp</in>
+          <in>BlenderDNA.cpp</in>
+          <in>BlenderLoader.cpp</in>
+          <in>BlenderModifier.cpp</in>
+          <in>BlenderScene.cpp</in>
+          <in>BlenderTessellator.cpp</in>
+          <in>COBLoader.cpp</in>
+          <in>CSMLoader.cpp</in>
+          <in>CalcTangentsProcess.cpp</in>
+          <in>ColladaExporter.cpp</in>
+          <in>ColladaLoader.cpp</in>
+          <in>ColladaParser.cpp</in>
+          <in>ComputeUVMappingProcess.cpp</in>
+          <in>ConvertToLHProcess.cpp</in>
+          <in>DXFLoader.cpp</in>
+          <in>DeboneProcess.cpp</in>
+          <in>DefaultIOStream.cpp</in>
+          <in>DefaultIOSystem.cpp</in>
+          <in>DefaultLogger.cpp</in>
+          <in>Exporter.cpp</in>
+          <in>FBXAnimation.cpp</in>
+          <in>FBXBinaryTokenizer.cpp</in>
+          <in>FBXConverter.cpp</in>
+          <in>FBXDeformer.cpp</in>
+          <in>FBXDocument.cpp</in>
+          <in>FBXDocumentUtil.cpp</in>
+          <in>FBXImporter.cpp</in>
+          <in>FBXMaterial.cpp</in>
+          <in>FBXMeshGeometry.cpp</in>
+          <in>FBXModel.cpp</in>
+          <in>FBXNodeAttribute.cpp</in>
+          <in>FBXParser.cpp</in>
+          <in>FBXProperties.cpp</in>
+          <in>FBXTokenizer.cpp</in>
+          <in>FBXUtil.cpp</in>
+          <in>FindDegenerates.cpp</in>
+          <in>FindInstancesProcess.cpp</in>
+          <in>FindInvalidDataProcess.cpp</in>
+          <in>FixNormalsStep.cpp</in>
+          <in>GenFaceNormalsProcess.cpp</in>
+          <in>GenVertexNormalsProcess.cpp</in>
+          <in>HMPLoader.cpp</in>
+          <in>IFCBoolean.cpp</in>
+          <in>IFCCurve.cpp</in>
+          <in>IFCGeometry.cpp</in>
+          <in>IFCLoader.cpp</in>
+          <in>IFCMaterial.cpp</in>
+          <in>IFCOpenings.cpp</in>
+          <in>IFCProfile.cpp</in>
+          <in>IFCReaderGen.cpp</in>
+          <in>IFCUtil.cpp</in>
+          <in>IRRLoader.cpp</in>
+          <in>IRRMeshLoader.cpp</in>
+          <in>IRRShared.cpp</in>
+          <in>Importer.cpp</in>
+          <in>ImporterRegistry.cpp</in>
+          <in>ImproveCacheLocality.cpp</in>
+          <in>JoinVerticesProcess.cpp</in>
+          <in>LWOAnimation.cpp</in>
+          <in>LWOBLoader.cpp</in>
+          <in>LWOLoader.cpp</in>
+          <in>LWOMaterial.cpp</in>
+          <in>LWSLoader.cpp</in>
+          <in>LimitBoneWeightsProcess.cpp</in>
+          <in>MD2Loader.cpp</in>
+          <in>MD3Loader.cpp</in>
+          <in>MD5Loader.cpp</in>
+          <in>MD5Parser.cpp</in>
+          <in>MDCLoader.cpp</in>
+          <in>MDLLoader.cpp</in>
+          <in>MDLMaterialLoader.cpp</in>
+          <in>MS3DLoader.cpp</in>
+          <in>MakeVerboseFormat.cpp</in>
+          <in>MaterialSystem.cpp</in>
+          <in>NDOLoader.cpp</in>
+          <in>NFFLoader.cpp</in>
+          <in>OFFLoader.cpp</in>
+          <in>ObjExporter.cpp</in>
+          <in>ObjFileImporter.cpp</in>
+          <in>ObjFileMtlImporter.cpp</in>
+          <in>ObjFileParser.cpp</in>
+          <in>OgreBinarySerializer.cpp</in>
+          <in>OgreImporter.cpp</in>
+          <in>OgreMaterial.cpp</in>
+          <in>OgreStructs.cpp</in>
+          <in>OgreXmlSerializer.cpp</in>
+          <in>OptimizeGraph.cpp</in>
+          <in>OptimizeMeshes.cpp</in>
+          <in>PlyExporter.cpp</in>
+          <in>PlyLoader.cpp</in>
+          <in>PlyParser.cpp</in>
+          <in>PostStepRegistry.cpp</in>
+          <in>PretransformVertices.cpp</in>
+          <in>ProcessHelper.cpp</in>
+          <in>Q3BSPFileImporter.cpp</in>
+          <in>Q3BSPFileParser.cpp</in>
+          <in>Q3BSPZipArchive.cpp</in>
+          <in>Q3DLoader.cpp</in>
+          <in>RawLoader.cpp</in>
+          <in>RemoveComments.cpp</in>
+          <in>RemoveRedundantMaterials.cpp</in>
+          <in>RemoveVCProcess.cpp</in>
+          <in>SGSpatialSort.cpp</in>
+          <in>SMDLoader.cpp</in>
+          <in>STEPFileEncoding.cpp</in>
+          <in>STEPFileReader.cpp</in>
+          <in>STLExporter.cpp</in>
+          <in>STLLoader.cpp</in>
+          <in>SceneCombiner.cpp</in>
+          <in>ScenePreprocessor.cpp</in>
+          <in>SkeletonMeshBuilder.cpp</in>
+          <in>SortByPTypeProcess.cpp</in>
+          <in>SpatialSort.cpp</in>
+          <in>SplitByBoneCountProcess.cpp</in>
+          <in>SplitLargeMeshes.cpp</in>
+          <in>StandardShapes.cpp</in>
+          <in>Subdivision.cpp</in>
+          <in>TargetAnimation.cpp</in>
+          <in>TerragenLoader.cpp</in>
+          <in>TextureTransform.cpp</in>
+          <in>TriangulateProcess.cpp</in>
+          <in>UnrealLoader.cpp</in>
+          <in>ValidateDataStructure.cpp</in>
+          <in>VertexTriangleAdjacency.cpp</in>
+          <in>XFileImporter.cpp</in>
+          <in>XFileParser.cpp</in>
+          <in>XGLLoader.cpp</in>
+        </df>
+      </df>
+    </df>
+    <df root="res" name="1">
+    </df>
+    <df root="src" name="2">
+      <df name="components">
+        <in>Component.cpp</in>
+        <in>GeometryComponent.cpp</in>
+        <in>MeshComponent.cpp</in>
+        <in>MeshRendererComponent.cpp</in>
+      </df>
+      <df name="resources">
+        <in>ResModel.cpp</in>
+      </df>
+      <in>Application.cpp</in>
+      <in>Engine.cpp</in>
+      <in>Engine.h</in>
+      <in>EngineWidget.cpp</in>
+      <in>Object.cpp</in>
+      <in>Object.h</in>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>makefile</itemPath>
+      <itemPath>sources.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>src</Elem>
+    <Elem>res</Elem>
+    <Elem>3rdParty</Elem>
+  </sourceRootList>
+  <projectmakefile>makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+        <element flagsID="1" commonFlags="-std=c++11"/>
+        <element flagsID="2" commonFlags="-xc -ansi -O2 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} debug=true -j4</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>bydlogine_test</executablePath>
+          <cTool>
+            <preprocessorList>
+              <Elem>ASSIMP_BUILD_NO_OWN_ZLIB</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool flags="1">
+            <standard>8</standard>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="3rdParty/assimp/contrib/ConvertUTF/ConvertUTF.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/clipper/clipper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/irrXML/irrXML.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/poly2tri/poly2tri/common/shapes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/poly2tri/poly2tri/sweep/cdt.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/poly2tri/poly2tri/sweep/sweep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/poly2tri/poly2tri/sweep/sweep_context.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/unzip/ioapi.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="3rdParty/assimp/contrib/unzip/unzip.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="2">
+        </cTool>
+      </item>
+      <item path="3rdParty/assimp/src/3DSConverter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/3DSLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ACLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ASELoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ASEParser.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Assimp.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/AssimpCExport.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/AssimpPCH.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/B3DImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BVHLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BaseImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BaseProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Bitmap.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderBMesh.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderDNA.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderModifier.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderScene.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/BlenderTessellator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/COBLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/CSMLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/CalcTangentsProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ColladaExporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ColladaLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ColladaParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ComputeUVMappingProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ConvertToLHProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/DXFLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/DeboneProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/DefaultIOStream.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/DefaultIOSystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/DefaultLogger.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Exporter.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXAnimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXBinaryTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXConverter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXDeformer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXDocument.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXDocumentUtil.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXMaterial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXMeshGeometry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXModel.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXNodeAttribute.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXParser.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXProperties.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXTokenizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FBXUtil.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FindDegenerates.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FindInstancesProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FindInvalidDataProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/FixNormalsStep.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/GenFaceNormalsProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/GenVertexNormalsProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/HMPLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCBoolean.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCCurve.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCGeometry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCMaterial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCOpenings.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCProfile.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCReaderGen.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IFCUtil.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IRRLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IRRMeshLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/IRRShared.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Importer.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ImporterRegistry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ImproveCacheLocality.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/JoinVerticesProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LWOAnimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LWOBLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LWOLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LWOMaterial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LWSLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/LimitBoneWeightsProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MD2Loader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MD3Loader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MD5Loader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MD5Parser.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MDCLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MDLLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MDLMaterialLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MS3DLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MakeVerboseFormat.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/MaterialSystem.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/NDOLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/NFFLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OFFLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ObjExporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ObjFileImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ObjFileMtlImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ObjFileParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OgreBinarySerializer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OgreImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OgreMaterial.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OgreStructs.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OgreXmlSerializer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OptimizeGraph.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/OptimizeMeshes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/PlyExporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/PlyLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/PlyParser.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/PostStepRegistry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/PretransformVertices.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ProcessHelper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Q3BSPFileImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Q3BSPFileParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Q3BSPZipArchive.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Q3DLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/RawLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/RemoveComments.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/RemoveRedundantMaterials.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/RemoveVCProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SGSpatialSort.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SMDLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/STEPFileEncoding.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/STEPFileReader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/STLExporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/STLLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SceneCombiner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ScenePreprocessor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SkeletonMeshBuilder.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SortByPTypeProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SpatialSort.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SplitByBoneCountProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/SplitLargeMeshes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/StandardShapes.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/Subdivision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/TargetAnimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/TerragenLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/TextureTransform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/TriangulateProcess.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/UnrealLoader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/ValidateDataStructure.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/VertexTriangleAdjacency.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/XFileImporter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/XFileParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="3rdParty/assimp/src/XGLLoader.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0">
+        <ccTool>
+          <incDir>
+            <pElem>3rdParty/assimp/src/BoostWorkaround</pElem>
+            <pElem>3rdParty/assimp</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ASSIMP_BUILD_BOOST_WORKAROUND</Elem>
+            <Elem>ASSIMP_BUILD_NO_OWN_ZLIB</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="2">
+        <ccTool>
+          <incDir>
+            <pElem>3rdParty/assimp/include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="src/Application.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/Engine.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/EngineWidget.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/components/Component.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/components/GeometryComponent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+      <item path="src/components/MeshComponent.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/components/MeshRendererComponent.cpp"
+            ex="false"
+            tool="1"
+            flavor2="8">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="src/resources/ResModel.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
+    </conf>
+    <conf name="Release" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -j4</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="src/Engine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Engine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

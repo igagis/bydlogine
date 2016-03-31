@@ -1,0 +1,13 @@
+mesh_duck{
+	file {duck.dae}
+
+	//mapping: texture file referenced by 3d format -> morda texture resource
+	textureMapping{
+		./duck.jpg{tex_duck}
+	}
+}
+
+
+tex_duck{
+	file{duck.jpg}
+}
