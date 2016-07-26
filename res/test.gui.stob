@@ -1,18 +1,18 @@
-VerticalContainer{
+VerticalArea{
 	layout{
-		dimX{max} dimY{max}
+		dx{fill} dy{fill}
 	}
 
 	EngineWidget{
 		name{bydlogine_widget}
 		layout{
-			dimX{max} dimY{0}
+			dx{fill} dy{0}
 			weight{1}
 		}
 	}
 
 	PushButton{
-		Label{
+		TextLabel{
 			text{"Hello world!"}
 		}
 	}

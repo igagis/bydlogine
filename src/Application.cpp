@@ -10,10 +10,7 @@ using namespace byd;
 namespace{
 
 morda::App::WindowParams GetWindowParams()noexcept{
-	morda::App::WindowParams wp;
-
-	wp.dim.x = 800;
-	wp.dim.y = 800;
+	morda::App::WindowParams wp(kolme::Vec2ui(800, 800));
 
 	return wp;
 }
@@ -24,15 +21,17 @@ morda::App::WindowParams GetWindowParams()noexcept{
 Application::Application() :
 		App(GetWindowParams())
 {
-	this->resMan.MountResPack(*this->CreateResourceFileInterface("res/"));
+	this->initStandardWidgets();
+	
+	this->resMan.mountResPack(*this->createResourceFileInterface("res/"));
 
-	this->inflater.AddWidget<EngineWidget>("EngineWidget");
+	this->inflater.addWidget<EngineWidget>("EngineWidget");
 
-	auto c = morda::App::inst().inflater.Inflate(
-			*this->CreateResourceFileInterface("res/test.gui.stob")
+	auto c = morda::App::inst().inflater.inflate(
+			*this->createResourceFileInterface("res/test.gui.stob")
 		);
 
-	std::dynamic_pointer_cast<EngineWidget>(c->findChildByName("bydlogine_widget"))->StartUpdating(30);
+	std::dynamic_pointer_cast<EngineWidget>(c->findChildByName("bydlogine_widget"))->startUpdating(30);
 
-	this->SetRootWidget(c);
+	this->setRootWidget(c);
 }

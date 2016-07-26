@@ -18,14 +18,14 @@ using namespace byd;
 EngineWidget::EngineWidget(const stob::Node* chain) :
 		Widget(chain)
 {
-	this->mesh = morda::App::inst().resMan.Load<ResModel>("mesh_duck");
+	this->mesh = morda::App::inst().resMan.load<ResModel>("mesh_duck");
 	
-	this->tex = morda::App::inst().resMan.Load<morda::ResTexture>("tex_sample");
+	this->tex = morda::App::inst().resMan.load<morda::ResTexture>("tex_sample");
 }
 
 
 
-void EngineWidget::Update(std::uint32_t dt){
+void EngineWidget::update(std::uint32_t dt){
 	this->rot %= kolme::Quatf().initRot(kolme::Vec3f(1, 2, 1).normalize(), 1.5f * (float(dt) / 1000));
 
 	//byd::Engine::inst().check();
@@ -50,9 +50,9 @@ void EngineWidget::render(const morda::Matr4r& matrix)const{
 
 //	this->tex->Tex().bind();
 
-	auto& s = morda::App::inst().Shaders().posTexShader;
+	auto& s = morda::App::inst().shaders.posTexShader;
 //	s.SetColor(morda::Vec3f(0, 1, 0));
-	s.SetMatrix(m);
+	s.setMatrix(m);
 
 	glEnable(GL_CULL_FACE);
 //	glEnable(GL_DEPTH_TEST);

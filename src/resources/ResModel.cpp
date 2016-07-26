@@ -134,7 +134,7 @@ public:
 
 
 
-std::shared_ptr<ResModel> ResModel::Load(const stob::Node& chain, const papki::File& fi){
+std::shared_ptr<ResModel> ResModel::load(const stob::Node& chain, const papki::File& fi){
 //	Assimp::DefaultLogger::create("", Assimp::Logger::VERBOSE, aiDefaultLogStream::aiDefaultLogStream_STDOUT);
 //
 //	ting::util::ScopeExit killLoggerOnExit(
@@ -209,7 +209,7 @@ std::shared_ptr<ResModel> ResModel::Load(const stob::Node& chain, const papki::F
 				if(auto t = texMapping->thisOrNext(path.C_Str()).node()){
 					//texture found
 					if(t->child()){
-						ret->tex = morda::App::inst().resMan.Load<morda::ResTexture>(t->child()->value());
+						ret->tex = morda::App::inst().resMan.load<morda::ResTexture>(t->child()->value());
 					}
 				}
 			}
@@ -220,13 +220,13 @@ std::shared_ptr<ResModel> ResModel::Load(const stob::Node& chain, const papki::F
 }
 
 void ResModel::Render(morda::PosTexShader& s)const{
-	this->tex->Tex().bind();
+	this->tex->tex().bind();
 	
 	s.render(
 			utki::wrapBuf(this->indices),
 			utki::wrapBuf(this->vertices),
 			utki::wrapBuf(this->texCoords),
-			morda::Render::EMode::TRIANGLES
+			morda::Render::Mode_e::TRIANGLES
 		);
 }
 
@@ -235,6 +235,6 @@ void ResModel::Render(morda::PosShader& s)const{
 	s.render(
 			utki::wrapBuf(this->indices),
 			utki::wrapBuf(this->vertices),
-			morda::Render::EMode::TRIANGLES
+			morda::Render::Mode_e::TRIANGLES
 		);
 }

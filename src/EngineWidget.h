@@ -7,7 +7,7 @@
 
 #pragma once
 
-#include <morda/widgets/Widget.hpp>
+#include <morda/widgets/core/Widget.hpp>
 
 #include <morda/resources/ResTexture.hpp>
 
@@ -29,7 +29,7 @@ class EngineWidget : public morda::Widget, public morda::Updateable{
 public:
 	EngineWidget(const stob::Node* chain);
 	
-	void Update(std::uint32_t dt) override;
+	void update(std::uint32_t dt) override;
 	
 	void render(const morda::Matr4r& matrix)const override;
 };

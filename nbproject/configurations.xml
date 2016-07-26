@@ -349,7 +349,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/AssimpPCH.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/B3DImporter.cpp"
@@ -367,29 +367,29 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/BaseProcess.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/Bitmap.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/BlenderBMesh.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/BlenderDNA.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/BlenderLoader.cpp"
@@ -410,14 +410,14 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/BlenderTessellator.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/COBLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -446,14 +446,14 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/ColladaParser.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/ComputeUVMappingProcess.cpp"
@@ -478,21 +478,21 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/DefaultIOStream.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/DefaultIOSystem.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/DefaultLogger.cpp"
@@ -510,7 +510,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXBinaryTokenizer.cpp"
@@ -524,7 +524,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXDeformer.cpp"
@@ -538,7 +538,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXDocumentUtil.cpp"
@@ -552,7 +552,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXMaterial.cpp"
@@ -566,7 +566,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXModel.cpp" ex="false" tool="1" flavor2="8">
@@ -577,18 +577,18 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXParser.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXProperties.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FBXTokenizer.cpp"
@@ -613,14 +613,14 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FindInvalidDataProcess.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/FixNormalsStep.cpp"
@@ -641,7 +641,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/HMPLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -649,11 +649,11 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/IFCBoolean.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/IFCCurve.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/IFCGeometry.cpp"
@@ -693,7 +693,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/IFCUtil.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/IRRLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -719,28 +719,28 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/ImproveCacheLocality.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/JoinVerticesProcess.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/LWOAnimation.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/LWOBLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -755,7 +755,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/LWSLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -774,7 +774,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/MD3Loader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/MD5Loader.cpp" ex="false" tool="1" flavor2="8">
@@ -786,11 +786,11 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/MDCLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/MDLLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/MDLMaterialLoader.cpp"
@@ -819,11 +819,11 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/NDOLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/NFFLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/OFFLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -919,7 +919,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/PlyParser.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/PostStepRegistry.cpp"
@@ -933,7 +933,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/ProcessHelper.cpp"
@@ -961,7 +961,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/Q3DLoader.cpp" ex="false" tool="1" flavor2="8">
@@ -969,14 +969,14 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/RawLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/RemoveComments.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/RemoveRedundantMaterials.cpp"
@@ -1001,7 +1001,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/SMDLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/STEPFileEncoding.cpp"
@@ -1047,7 +1047,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/SortByPTypeProcess.cpp"
@@ -1089,14 +1089,14 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/TargetAnimation.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/TerragenLoader.cpp"
@@ -1117,14 +1117,14 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/UnrealLoader.cpp"
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/ValidateDataStructure.cpp"
@@ -1138,7 +1138,7 @@
             ex="false"
             tool="1"
             flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/XFileImporter.cpp"
@@ -1156,7 +1156,7 @@
         </ccTool>
       </item>
       <item path="3rdParty/assimp/src/XGLLoader.cpp" ex="false" tool="1" flavor2="8">
-        <ccTool flags="0">
+        <ccTool flags="1">
         </ccTool>
       </item>
       <folder path="0">
@@ -1179,6 +1179,7 @@
           </incDir>
           <preprocessorList>
             <Elem>DEBUG</Elem>
+            <Elem>_GLIBCXX_USE_CXX11_ABI=0</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
@@ -1187,14 +1188,20 @@
         </ccTool>
       </item>
       <item path="src/Engine.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/EngineWidget.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/Object.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/components/Component.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/components/GeometryComponent.cpp"
             ex="false"
@@ -1204,13 +1211,19 @@
         </ccTool>
       </item>
       <item path="src/components/MeshComponent.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/components/MeshRendererComponent.cpp"
             ex="false"
             tool="1"
             flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+        </ccTool>
       </item>
       <item path="src/resources/ResModel.cpp" ex="false" tool="1" flavor2="8">
         <ccTool flags="1">

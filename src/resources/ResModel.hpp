@@ -37,7 +37,7 @@ public:
 	void Render(morda::PosShader& s)const;
 	
 private:
-	static std::shared_ptr<ResModel> Load(const stob::Node& chain, const papki::File& fi);
+	static std::shared_ptr<ResModel> load(const stob::Node& chain, const papki::File& fi);
 };
 
 }
